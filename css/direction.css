@@ -1,0 +1,136 @@
+/*banner*/
+.banner{
+    width: 100%;
+    height: 400px;
+    background: url(../images/industry_banner.png) no-repeat center 0;
+}
+/*main*/
+.industry{
+    position: relative;
+    height: 700px;
+}
+.industry .industry_text{
+    position: absolute;
+    top:140px;
+    left: 0px;
+    width: 460px;
+}
+.industry .industry_text p{
+    line-height: 30px;
+    font-size: 18px;
+    color: #666;
+}
+.industry .industry_img{
+    position: absolute;
+    right: 0;
+    top: 140px;
+    background: url("../images/industry_pic1.png") no-repeat 0;
+    width: 778px;
+    height: 496px;
+}
+/*互联网*/
+.internet_bg{
+    background-color: #d7d7d7;
+}
+.internet{
+    position: relative;
+    height: 700px;
+}
+.internet .internet_img{
+    position: absolute;
+    top: 160px;
+    left: 0;
+    width: 754px;
+    height: 407px;
+    background: url("../images/industry_pic2.png") no-repeat 0 ;
+}
+.internet .internet_text{
+    position: absolute;
+    right: 0;
+    top: 102px;
+    width: 460px;
+}
+h4{
+    line-height: 30px;
+    font-size: 18px;
+    color: #666;
+}
+.h4{
+    margin-top: 30px;
+}
+p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #666;
+}
+/*软件*/
+.software{
+    position: relative;
+    height: 700px;
+}
+.software .software_text{
+    position: absolute;
+    top: 48px;
+    width: 460px;
+}
+.software_img{
+    position: absolute;
+    top: 120px;
+    right: 0;
+    width: 689px;
+    height: 517px;
+    background: url("../images/industry_pic3.png") no-repeat 0;
+
+}
+/*分享*/
+.share{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.share span{
+    display: inline-block;
+    line-height: 27px;
+    margin-right: 8px;
+    color: #333;
+    font-size: 14px;
+}
+.share a{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 3px;
+}
+.share a i{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    opacity: 0;
+}
+.share a:hover i{
+    opacity: 0.2;
+}
+.weixin{
+    background: url("../images/weixin.gif");
+}
+.sina{
+    margin-left: 35px;
+    background: url("../images/top_logos_sprite.gif") no-repeat 0 -390px;
+}
+.qq{
+    margin-left: 70px;
+    background: url("../images/qqim.gif") no-repeat 0;
+}
+.room{
+    margin-left: 105px;
+    background: url("../images/top_logos_sprite.gif") no-repeat 0 -338px;
+}

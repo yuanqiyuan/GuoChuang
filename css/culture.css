@@ -1,0 +1,96 @@
+/*banner*/
+.banner{
+    background: url(../images/culture_bg.png) no-repeat center top;
+    width: 100%;
+    height: 400px;
+}
+.main .main-bg{
+    width: 100%;
+    height: 400px;
+    background: #f1f0f0;
+
+}
+.main .main-bg-center{
+    height: 100%;
+    position: relative;
+}
+
+.main .main-bg .main-left{
+    background: url(../images/culture_core_img01.png) no-repeat 0 0;
+    width: 695px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main .main-bg .main-right{
+    background: url(../images/culture_core_txt01.png) no-repeat 0 0;
+    width:420px;
+    height: 156px;
+    position: absolute;
+    top: 172px;
+    right: 164px;
+}
+/*使命*/
+.main .main-sm{
+    position: relative;
+    height: 400px;
+}
+.main .main-sm .main-sm-left{
+    background: url(../images/culture_core_txt02.png) no-repeat 0 0;
+    width: 250px;
+    height: 128px;
+    position: absolute;
+    top: 138px;
+    left: 150px;
+}
+.main .main-sm .main-sm-right{
+    background: url(../images/culture_core_img02.png) no-repeat 0 0;
+    width: 603px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+}
+.main-yj-center{
+    position: relative;
+    height: 400px;
+}
+.main-yj-center  .main-yj-left{
+    background: url(../images/culture_core_img03.png) no-repeat 0 0;
+    width: 585px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main-yj-center .main-yj-right{
+    background: url(../images/culture_core_txt03.png) no-repeat 0 0;
+    width: 574px;
+    height: 158px;
+    position: absolute;
+    top:138px;
+    right: 20px;
+}
+/*智慧战略*/
+.main-zh{
+    position:relative;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.main-zh .main-zh-left{
+    background: url(../images/culture_core_txt04.png) no-repeat 0 0;
+    width: 598px;
+    height: 158px;
+    position: absolute;
+    top:126px;
+    left:84px;
+}
+.main-zh .main-zh-right{
+    background: url(../images/culture_core_img04.png) no-repeat 0 0;
+    width:702px;
+    height:400px;
+    position: absolute;
+    top:0px;
+    right: -4px;
+}

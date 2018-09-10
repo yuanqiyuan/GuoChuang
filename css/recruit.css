@@ -1,0 +1,131 @@
+/*banner*/
+.banner{
+    background: url(../images/join_banner.png) no-repeat center top;
+    width: 100%;
+    height: 402px;
+}
+.main .main-box{
+    margin-top: 60px;
+}
+.main .main-top h2{
+    font-size: 36px;
+    text-align: center;
+    font-weight: normal;
+
+}
+.main .main-top h2 span{
+    color: #2e3137;
+    border-bottom: 3px solid #b5b3b4;
+    padding-bottom: 10px;
+}
+.main{
+    position: relative;
+}
+.main .main-top h2 .line{
+    position: absolute;
+    top:60px;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #eaeaea;
+}
+.main .main-content{
+    padding: 0 45px 30px;
+    /*text-align: center;*/
+}
+.main .main-content .search{
+    font-size: 16px;
+    font-weight: bold;
+    /*margin-left: 100px;*/
+    margin-top: 20px;
+
+}
+.main .main-content .search .search-list{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.main .main-content .search .search-list input{
+    height: 35px;
+    line-height: 35px;
+    width: 200px;
+}
+.main .main-content .search .search-list>span{
+    margin-left:10px;
+}
+.main .main-content .search .search-list .btn{
+    width: 39px;
+    background:#9b9a9a  url(../images/search-tool.png) no-repeat center center;
+    height: 39px;
+    display: inline-block;
+    position: relative;
+    top:16px;
+    left:-15px;
+    cursor: pointer;
+}
+.main .main-content .search .search-main ul li{
+    width: 100%;
+    border-bottom:1px solid #ededed;
+    float: left;
+}
+.main .main-content .search .search-main ul li.one{
+    background: #eee;
+    color: #666;
+    font-weight: 600;
+    border-bottom: none;
+
+}
+.main .main-content .search .search-main ul li span{
+    width: 216px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    font-weight: normal;
+    color: #666;
+}
+.main .main-content .search .search-main ul li span a{
+    text-decoration:none;
+    color:#2f9aea;
+}
+.main .main-content .search .search-main ul li span a:hover{
+    text-decoration: underline;
+}
+.main .main-content .search .page{
+    text-align: center;
+    font-size: 16px;
+    padding: 17px 0 40px;
+    font-weight: normal;
+}
+.main .main-content .search .page a{
+    text-decoration: none;
+    color: #666;
+    margin-right: 6px;
+}
+.main .main-content .search .page a:hover{
+    text-decoration: underline;
+}
+.main .main-content .search .page a.first:hover{
+    opacity: 0.5;
+}
+.main .main-content .search .page a.current{
+    color: #2f9aea;
+    font-weight: bold;
+}
+.main .main-content .search .search-main{
+    /*position: relative;*/
+    /*height: 609px;*/
+    overflow: hidden;
+}
+.main .main-content .search .search-main ul li{
+    display:none;
+    opacity: 0;
+}
+.main .main-content .search .search-main ul li.yc{
+    display: none;
+    opacity: 1;
+}
+.main .main-content .search .search-main ul li.xs{
+    display: block;
+    opacity: 1;
+}

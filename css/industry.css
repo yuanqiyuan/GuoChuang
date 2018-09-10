@@ -1,0 +1,87 @@
+/*banner*/
+.banner{
+    height: 400px;
+    background: url("../images/news_bg.jpg") no-repeat center 0;
+}
+.news-main{
+	min-width: 1170px;
+	height: 1469px;
+}
+.news-tit{
+    margin: 20px 0;
+    border-bottom: 1px solid #d3d3d3;
+ 	height: 66px
+}
+.w1{
+    margin: 0 auto;
+    width: 1000px;
+}
+.news-business-cont{
+    margin-top: 20px;
+}
+h3{
+    font-size: 30px;
+    padding: 10px 0;
+    color: #333;
+    font-weight: normal;
+}
+
+.item{
+    padding: 20px 0;
+    border-bottom: 1px solid #ececec;
+}
+.left1{
+	margin-right: 30px;
+    height: 180px;
+    width: 320px;
+    overflow: hidden;
+    float: left;
+}
+
+.left1 img{
+width: 321px;
+height: 178px;
+}
+.right1{
+	    width: 650px;
+	    float: left;
+}
+.title{
+    padding: 8px 0;
+}
+.title a{
+	font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.title a:hover{
+    text-decoration: underline;
+}
+.info{
+ color: #666;
+    line-height: 24px;
+    height: 75px;
+    overflow: hidden;
+    font-size: 16px;
+
+}
+.info a{
+
+}
+.time{
+    margin: 15px 0;
+    color: #999;
+    font-size: 16px;
+
+}
+.news-more{
+	margin-top: 30px;
+    margin-bottom: 20px;
+}
+.news-more a{
+	font-size: 18px;
+    color: #333;
+}
+.news-more a:hover{
+    text-decoration: underline;
+}

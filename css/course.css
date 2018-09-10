@@ -1,0 +1,18 @@
+/*banner*/
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+.w{
+    width: 1170px;
+}
+.banner{
+    height: 400px;
+    width: 100%;
+    background: url("../images/about_bg.png") no-repeat center 0;
+}
+/*main*/
+.course{
+    margin-top: 145px;
+    margin-bottom: 52px;
+}

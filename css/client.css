@@ -1,0 +1,109 @@
+.banner{
+    height: 402px;
+    background: url("../images/service_bg.png") no-repeat center 0;
+}
+.professional{
+
+}
+.professional img{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 140px;
+}
+.professional p{
+    width: 870px;
+    font-size: 18px;
+    color: #555;
+    line-height: 36px;
+    margin-bottom: 58px;
+    margin-left: 150px;
+}
+.map{
+    height: 660px;
+    background-color: #b7b7b7;
+    padding-top: 42px;
+}
+.local{
+    height: 616px;
+    background: url("../images/service_map.png") no-repeat center;
+}
+.local_com{
+    position: relative;
+}
+.local_com a{
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.local_text{
+    padding: 6px 18px;
+    background-color: #434343;
+    position: absolute;
+    width: 290px;
+    height: 75px;
+    color: #fff;
+}
+.local_1{
+    top: 182px;
+    right: 450px;
+}
+.local_text p{
+    font-size: 12px;
+}
+.local_text .name{
+    font-size: 14px;
+}
+.beijing{
+    top: 134px;
+    right: 88px;
+}
+.local_2{
+    top: 300px;
+    right: 370px;
+}
+.suzhou{
+    top: 252px;
+    right: 40px;
+}
+.local_3{
+    top: 315px;
+    right: 405px;
+}
+.hefei{
+    top: 320px;
+    right: 73px;
+}
+.local_4{
+    top: 285px;
+    right: 540px;
+}
+.xian{
+    height: 55px;
+    top: 242px;
+    left: 275px;
+}
+.local_5{
+    top: 364px;
+    left: 550px;
+}
+.chongqing{
+    top: 350px;
+    left: 240px;
+    height: 55px;
+}
+.local_6{
+    top: 220px;
+    right: 170px;
+}
+.dongjing{
+    top: 270px;
+    right: 0px;
+    height: 55px;
+}
+.local_text{
+    display: none;
+}
+.local_com:hover .local_text{
+    display: block;
+}

@@ -1,0 +1,229 @@
+/*banner*/
+.banner{
+    height: 538px;
+    width: 100%;
+
+}
+.banner .slide{
+    height: 538px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.banner ul li{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.banner ul li a{
+    display: block;
+    width: 100%;
+    height: 538px;
+}
+/*.img{
+    position: relative;
+    height: 538px;
+}*/
+.btn{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -63px;
+}
+.btn span{
+    display: inline-block;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    margin: 0 10px;
+    background: url("../images/round.png");
+}
+.btn span.active{
+    background: url("../images/roundb.png");
+}
+/*main*/
+/*新闻*/
+.news{
+    background-color: #f1f0f0;
+    margin-top: 16px;
+    margin-bottom: 13px;
+    height: 60px;
+    overflow: hidden;
+}
+.title{
+    float: left;
+    display: inline-block;
+    width: 124px;
+    height: 60px;
+    background: url("../images/news_bg.png") no-repeat 0;
+}
+.title .new_tit{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 60px;
+    color: #333333;
+    text-align: center;
+    text-decoration: none;
+}
+#list{
+    float: left;
+    width: 80%;
+    height: 60px;
+    overflow: hidden;
+    /*position: relative;*/
+
+}
+#list li{
+    height: 60px;
+    line-height: 60px;
+    margin-left: 27px;
+}
+#list li a{
+    color: #333333;
+    font-size: 14px;
+    text-decoration: none;
+}
+#arrow{
+    width: 110px;
+    height: 60px;
+    float: left;
+}
+#arrow a{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+#arrow a i{
+    display: inline-block;
+    width: 22px;
+    height: 12px;
+}
+#arrow #up i{
+    margin-top: 12px;
+    background: url("../images/icon_up.png") no-repeat 0;
+}
+#arrow #down i{
+    margin-top: 9px;
+    background: url("../images/icon_down.png") no-repeat 0;
+}
+/*行业介绍*/
+.introduce{
+    overflow: hidden;
+}
+.left{
+    width: 576px;
+    height: 640px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+.left .lf_img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.introduce img{
+    position: absolute;
+    left: 0px;
+    width: 110%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+}
+.intro_text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+}
+.textbox{
+    position: absolute;
+    bottom: 0;
+    left:35px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.text{
+    position: absolute;
+    bottom: -25px;
+}
+.introduce h3{
+    font-size: 36px;
+    color: #fff;
+    z-index: 100;
+    opacity: 1;
+}
+.introduce p{
+    font-size: 18px;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+}
+.right{
+    float: right;
+    cursor: pointer;
+}
+.right>div{
+    height: 310px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 576px;
+}
+.right_top{
+    position: relative;
+}
+.right_bottom{
+    position: relative;
+}
+.right_top_img{
+    width: 100%;
+    height: 100%;
+}
+.right_bottom_img{
+    width: 100%;
+    height: 100%;
+}
+/*解决方案*/
+.solution{
+    position: relative;
+    width: 100%;
+    height: 968px;
+    margin-bottom: 16px;
+    background: url("../images/index_solution.png") no-repeat center 0;
+}
+.solution>a{
+    display: block;
+    text-decoration: none;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    bottom: 24px;
+    text-align: center;
+    font-size: 16px;
+    background:#fff;
+    border-radius: 30px;
+    color: #5f8fa6;
+}
+/*视频*/
+.video{
+    width: 1170px;
+    height: 566px;
+    margin-bottom: 30px;
+}
+.mp4{
+    width: 1160px;
+    height: 100%;
+    background-color: #000;
+}

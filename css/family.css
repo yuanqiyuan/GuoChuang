@@ -1,0 +1,70 @@
+/*banner*/
+.banner{
+    background: url(../images/culture_bg.png) no-repeat center top;
+    width: 100%;
+    height: 400px;
+}
+.main  .main-one{
+    margin-top: 87px;
+    margin-bottom: 205px;
+    height: 350px;
+
+}
+.main  .main-one .main-one-left{
+    margin-left: 5px;
+    margin-right: 10px;
+    float: left;
+}
+.main  .main-one .main-one-right{
+    width: 528px;
+    float: left;
+    margin-left: 20px;
+}
+.main  .main-one .main-one-right h2{
+    font-size: 18px;
+    margin: 15px 0;
+}
+.main  .main-one .main-one-right .word{
+    font-size: 16px;
+    margin-bottom:30px;
+    line-height: 26px;
+}
+.main  .main-one .main-one-right .load{
+    width: 180px;
+    height: 36px;
+    line-height:36px;
+    text-align: center;
+    background: #2ea3dc;
+    border-radius:8px;
+    margin-bottom: 19px;
+    display: inline-block;
+    margin-right: 87px;
+}
+.main  .main-one .main-one-text{
+    overflow: hidden;
+    border-bottom: 1px solid #c9c9c9;
+    padding-bottom: 38px;
+}
+.main  .main-one .main-one-right .load{
+    color: #fff;
+}
+.main  .main-one .main-one-right .load:hover{
+    background: #1e8cc1;
+}
+.main  .main-one .more a:hover{
+    background: #1e8cc1;
+}
+.main  .main-one .more{
+
+    margin-top: 158px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main  .main-one .more a{
+    height: 37px;
+    line-height: 37px;
+    color: #fff;
+    background: #2ea3dc;
+    padding: 0 10px;
+    display: inline-block;
+}

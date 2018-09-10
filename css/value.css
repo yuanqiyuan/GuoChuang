@@ -1,0 +1,48 @@
+/*banner*/
+.banner{
+    background: url(../images/culture_bg.png) no-repeat center top;
+    width: 100%;
+    height: 400px;
+}
+/*main*/
+/*核心价值观*/
+.main .main-jzg h3{
+    margin: 127px 0;
+    text-align: center;
+}
+.main .main-jzg h3>span{
+    font-size: 30px;
+    border-bottom: 7px solid #333;
+}
+.main .main-jzg>ul{
+    width: 1080px;
+    margin-left: 90px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.main .main-jzg>ul li{
+    margin: 36px 0;
+    width: 33.33%;
+    position: relative;
+    float: left;
+}
+.main .main-jzg>ul li>img{
+    width: 130px;
+    height: 130px;
+}
+.main .main-jzg>ul li .word{
+    position: absolute;
+    left: 142px;
+    top:57px;
+    color: #333;
+    font-size: 16px;
+}
+.main .main-jzg>ul li .word>p{
+    margin-bottom: 3px;
+}
+.main .tp{
+    background: url(../images/culture_bg02.png) no-repeat center top;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}

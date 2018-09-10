@@ -1,0 +1,95 @@
+.banner {
+    height: 400px;
+    min-width: 1170px;
+    background: url(../images/news_bg.jpg) no-repeat 50% 0;
+}
+.news-main{
+	width: 100%;
+	height: 1655px;
+}
+.news-tit{
+    margin: 20px 0;
+    height: 66px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.news-tit h3{
+    font-size: 30px;
+    padding: 10px 0;
+    color: #333;
+}
+.w1{
+	margin: 0 auto;
+    width: 1000px;
+}
+.time-year{
+	width: 73px;
+    height: 73px;
+    line-height: 73px;
+    background: url(../images/round-year.png) no-repeat;
+    font-size: 23px;
+    color: #00afdd;
+    text-align: center;
+    margin-top: 20px;
+}
+.item{
+    position: relative;
+    padding: 30px 0;
+    margin-left: 37px;
+    border-left: 1px solid #b5b5b5;
+}
+.time{
+	position: absolute;
+    top: 50%;
+    left: -75px;
+    margin-top: -10px;
+    font-size: 15px;
+    color: #333;
+    z-index: 999;
+}
+.time-mouth{
+	color: #000;
+}
+.round{
+	display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(../images/round1.png) no-repeat;
+}
+.left1{
+	margin: 0 30px;
+    height: 180px;
+    width: 320px;
+    overflow: hidden;
+    float: left;
+}
+.left1 img{
+	width: 320px;
+	height: 180px;
+}
+.right1{
+    padding-bottom: 10px;
+    width: 574px;
+    float: right;
+}
+.title{
+    padding: 8px 0;
+}
+.title a{
+    font-size: 16px;
+    color: #333;
+    font-weight: bold
+}
+.info{
+    color: #666;
+    line-height: 24px;
+    height: 115px;
+    overflow: hidden;
+    font-size: 16px;
+} 
+.news-more{
+	margin-top: 30px;
+}
+.news-more a{
+	font-size: 18px;
+    color: #333;
+}
